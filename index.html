@@ -1,0 +1,615 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+            integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I"
+            crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+
+        <title>Build Responsive Blog Website using HTML CSS JS & BootStrap 5</title>
+    </head>
+    <body>
+        <header class="main_header">
+            <div class="d-flex justify-content-center align-items-center
+                flex-column py-5">
+                <h1 class="main_heading">NOUMAN QAISER</h1>
+                <p class="main_heading__para">Welcome to my <span
+                        class="text-capitalize bg-dark text-white py-2 px-3">
+                        world of
+                        Blogs</span></p>
+            </div>
+            <!-- the main images start -->
+            <div class="main_header__div d-flex align-items-start
+                justify-content-center pl-5 flex-column shadow">
+                <p>Nouman Qaiser</p>
+                <h2 class="animateWord">
+                    <span>He is</span>
+                    <div>
+                        <ul class="flip">
+                            <li>a Programmer</li>
+                            <li>a facebook</li>
+                            <li>a freelauncer</li>
+                            <li>Instagram</li>
+                        </ul>
+                    </div>
+                </h2>
+                <button class="text-uppercase">Subscribe</button>
+            </div>
+            <!-- the main images end -->
+        </header>
+        <!-- header ends -->
+
+        <!-- two sides div start -->
+        <div class="container-fluid">
+            <div class="row">
+                <!-- to get the left and right side div space -->
+                <div class="col-xl-10 col-lg-10 col-md-11 col-11 mx-auto my-5">
+                    <div class="row gx-5 mx-sm-auto">
+                        <!-- to get the left side of the div space -->
+                        <div class="col-lg-8 col-md-11 col-11 mx-auto">
+                            <div class="row gy-5">
+                                <!-- our first post code -->
+                                <div class="col-12 card p-4 shadow
+                                    blog_left__div">
+                                    <div class="d-flex justify-content-center
+                                        align-items-center
+                                        flex-column pt-3 pb-5">
+                                        <h1>Best laptop in 2020</h1>
+                                        <p class="blog_title"><span
+                                                class="font-weight-bold">Title
+                                                description,</span>
+                                            Aug 18,2020</p>
+                                    </div>
+                                    <figure class="right_side__img mb-5">
+                                        <img
+                                            src="https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?cs=srgb&dl=pexels-pixabay-270348.jpg&fm=jpg"
+                                            class="img-fluid shadow">
+                                    </figure>
+                                    <p><span class="font-weight-bold">Nouman
+                                            Qaiser</span>
+                                        Lorem ipsum dolor sit amet, consectetur
+                                        adipisicing elit. Repudiandae similique
+                                        deleniti laboriosam exercitationem est
+                                        voluptatem, voluptatibus nihil
+                                        accusantium, provident minus, cupiditate
+                                        eaque quo.
+                                    </p>
+                                    <p>Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Earum voluptatum
+                                        mollitia magnam, consequuntur
+                                        necessitatibus at? Aperiam suscipit
+                                        veritatis assumenda porro.</p>
+                                    <div class="d-flex justify-content-between
+                                        left_div_btns">
+                                        <div>
+                                            <button class="left_div__like"
+                                                id="like_btn">
+                                                <i class="fas fa-thumbs-up"></i>
+                                                Like
+                                            </button>
+                                        </div>
+                                        <div>
+                                            <button class="left_div__reply"
+                                                onclick="reply('reply1')">
+                                                Replies <badge class="bg-white
+                                                    text-dark p-2">1</badge>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <!-- cpmment start -->
+                                    <div class="replies" id="reply1">
+                                        <div class="d-flex justify-content-start
+                                            flex-row align-self-center card
+                                            reply_card py-3">
+                                            <div class="reply_img mx-2
+                                                align-items-center">
+                                                <img
+                                                    src="https://img.icons8.com/doodle/48/000000/user-male-skin-type-5.png"
+                                                    />
+                                            </div>
+                                            <div class="reply_text__left">
+                                                <p class="blog_title">
+                                                    <span
+                                                        class="font-weight-bold">Nouman,</span>
+                                                    Aug 1, 2020, 7:20 PM
+                                                </p>
+                                                <p>Awesome Bro, I love Your
+                                                    Content</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- cpmment end -->
+
+                                </div>
+                                <!-- 2nd start -->
+                                <div class="col-12 card p-4 shadow
+                                    blog_left__div">
+                                    <div class="d-flex justify-content-center
+                                        align-items-center
+                                        flex-column pt-3 pb-5">
+                                        <h1>Best laptop in 2020</h1>
+                                        <p class="blog_title"><span
+                                                class="font-weight-bold">Title
+                                                description,</span>
+                                            Aug 18,2020</p>
+                                    </div>
+                                    <figure class="right_side__img mb-5">
+                                        <img
+                                            src="https://images.pexels.com/photos/169573/pexels-photo-169573.jpeg?cs=srgb&dl=pexels-negative-space-169573.jpg&fm=jpg"
+                                            class="img-fluid shadow">
+                                    </figure>
+                                    <p><span class="font-weight-bold">Nouman
+                                            Qaiser</span>
+                                        Lorem ipsum dolor sit amet, consectetur
+                                        adipisicing elit. Repudiandae similique
+                                        deleniti laboriosam exercitationem est
+                                        voluptatem, voluptatibus nihil
+                                        accusantium, provident minus, cupiditate
+                                        eaque quo.
+                                    </p>
+                                    <p>Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Earum voluptatum
+                                        mollitia magnam, consequuntur
+                                        necessitatibus at? Aperiam suscipit
+                                        veritatis assumenda porro.</p>
+                                    <div class="d-flex justify-content-between
+                                        left_div_btns">
+                                        <div>
+                                            <button class="left_div__like"
+                                                id="like_btn">
+                                                <i class="fas fa-thumbs-up"></i>
+                                                Like
+                                            </button>
+                                        </div>
+                                        <div>
+                                            <button class="left_div__reply"
+                                                onclick="reply('reply2')">
+                                                Replies <badge class="bg-white
+                                                    text-dark p-2">2</badge>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <!-- cpmment start -->
+                                    <div class="replies" id="reply2">
+                                        <div class="d-flex justify-content-start
+                                            flex-row align-self-center card
+                                            reply_card py-3">
+                                            <div class="reply_img mx-2
+                                                align-items-center">
+                                                <img
+                                                    src="https://img.icons8.com/doodle/48/000000/user-male-skin-type-5.png"
+                                                    />
+                                            </div>
+                                            <div class="reply_text__left">
+                                                <p class="blog_title">
+                                                    <span
+                                                        class="font-weight-bold">Nouman,</span>
+                                                    Aug 1, 2020, 7:20 PM
+                                                </p>
+                                                <p>Awesome Bro, I love Your
+                                                    Content</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-start
+                                            flex-row align-self-center card
+                                            reply_card py-3">
+                                            <div class="reply_img mx-2
+                                                align-items-center">
+                                                <img
+                                                    src="https://img.icons8.com/doodle/48/000000/user-male-skin-type-5.png"
+                                                    />
+                                            </div>
+                                            <div class="reply_text__left">
+                                                <p class="blog_title">
+                                                    <span
+                                                        class="font-weight-bold">Salman,</span>
+                                                    Aug 1, 2020, 7:20 PM
+                                                </p>
+                                                <p>Awesome Bro, I love Your
+                                                    content and also subscribe</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- cpmment end -->
+
+                                </div>
+                                <!-- 2nd end -->
+
+                                <!-- 3rd start -->
+                                <div class="col-12 card p-4 shadow
+                                    blog_left__div">
+                                    <div class="d-flex justify-content-center
+                                        align-items-center
+                                        flex-column pt-3 pb-5">
+                                        <h1>Best laptop in 2020</h1>
+                                        <p class="blog_title"><span
+                                                class="font-weight-bold">Title
+                                                description,</span>
+                                            Aug 18,2020</p>
+                                    </div>
+                                    <figure class="right_side__img mb-5">
+                                        <img
+                                            src="https://images.pexels.com/photos/270366/pexels-photo-270366.jpeg?cs=srgb&dl=pexels-pixabay-270366.jpg&fm=jpg"
+                                            class="img-fluid shadow">
+                                    </figure>
+                                    <p><span class="font-weight-bold">Nouman
+                                            Qaiser</span>
+                                        Lorem ipsum dolor sit amet, consectetur
+                                        adipisicing elit. Repudiandae similique
+                                        deleniti laboriosam exercitationem est
+                                        voluptatem, voluptatibus nihil
+                                        accusantium, provident minus, cupiditate
+                                        eaque quo.
+                                    </p>
+                                    <p>Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Earum voluptatum
+                                        mollitia magnam, consequuntur
+                                        necessitatibus at? Aperiam suscipit
+                                        veritatis assumenda porro.</p>
+                                    <div class="d-flex justify-content-between
+                                        left_div_btns">
+                                        <div>
+                                            <button class="left_div__like"
+                                                id="like_btn">
+                                                <i class="fas fa-thumbs-up"></i>
+                                                Like
+                                            </button>
+                                        </div>
+                                        <div>
+                                            <button class="left_div__reply"
+                                                onclick="reply('reply3')">
+                                                Replies <badge class="bg-white
+                                                    text-dark p-2">3</badge>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <!-- cpmment start -->
+                                    <div class="replies" id="reply3">
+                                        <div class="d-flex justify-content-start
+                                            flex-row align-self-center card
+                                            reply_card py-3">
+                                            <div class="reply_img mx-2
+                                                align-items-center">
+                                                <img
+                                                    src="https://img.icons8.com/doodle/48/000000/user-male-skin-type-5.png"
+                                                    />
+                                            </div>
+                                            <div class="reply_text__left">
+                                                <p class="blog_title">
+                                                    <span
+                                                        class="font-weight-bold">Nouman,</span>
+                                                    Aug 1, 2020, 7:20 PM
+                                                </p>
+                                                <p>Awesome Bro, I love Your
+                                                    Content</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-start
+                                            flex-row align-self-center card
+                                            reply_card py-3">
+                                            <div class="reply_img mx-2
+                                                align-items-center">
+                                                <img
+                                                    src="https://img.icons8.com/doodle/48/000000/user-male-skin-type-5.png"
+                                                    />
+                                            </div>
+                                            <div class="reply_text__left">
+                                                <p class="blog_title">
+                                                    <span
+                                                        class="font-weight-bold">Ahmad,</span>
+                                                    Aug 5, 2020, 7:20 PM
+                                                </p>
+                                                <p>Awesome Bro, I love Your
+                                                    Content</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-start
+                                            flex-row align-self-center card
+                                            reply_card py-3">
+                                            <div class="reply_img mx-2
+                                                align-items-center">
+                                                <img
+                                                    src="https://img.icons8.com/doodle/48/000000/user-male-skin-type-5.png"
+                                                    />
+                                            </div>
+                                            <div class="reply_text__left">
+                                                <p class="blog_title">
+                                                    <span
+                                                        class="font-weight-bold">Ali,</span>
+                                                    Aug 6, 2020, 7:20 PM
+                                                </p>
+                                                <p>Awesome Bro, I love Your
+                                                    Content</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- cpmment end -->
+
+                                </div>
+                                <!-- 3rd end -->
+                            </div>
+                        </div>
+                        <!-- to get the right side of the div space -->
+                        <!-- rigth start -->
+                        <div class="col-lg-3 col-md-7 col-11 justify-content-end
+                            m-lg-0 m-auto">
+                            <div class="row gy-5 left_div_blog">
+                                <!-- about me part start -->
+                                <div class="col-12 about_me_div shadow">
+                                    <p><b>Nouman Qaiser</b></p>;
+                                    <p>Highly motivated, Energetic Software
+                                        Engineer who demonstrates strong work
+                                        ethics and creative ability. Entry-level
+                                        experience with all stages of
+                                        development cycle web projects.
+                                        Proficient in HTML, CSS, JavaScript,
+                                        Php, Bootstrap plus libraries and
+                                        frameworks.</p>
+                                </div>
+                                <!-- about me part end -->
+
+                                <!-- popular post start -->
+                                <div class="popular_post">
+                                    <div class="right_div_title py-4 pl-2">
+                                        <h2>Popular Posts</h2>
+                                    </div>
+                                    <div class="right_sub_div shadow">
+                                        <div class="row">
+                                            <div class="col-3 popular_post__img1
+                                                py-2 pl-2">
+
+                                            </div>
+                                            <div class="col-9">
+                                                <h3>Bill Gates</h3>
+                                                <p>CEO MICROSOFT</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-3 popular_post__img2
+                                                py-2 pl-2">
+
+                                            </div>
+                                            <div class="col-9">
+                                                <h3>Mark Zukerberg</h3>
+                                                <p>PROGRAMMER</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-3 popular_post__img3
+                                                py-2 pl-2">
+
+                                            </div>
+                                            <div class="col-9">
+                                                <h3>Jeff Bezoz</h3>
+                                                <p>Amazon</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-3 popular_post__img4
+                                                py-2 pl-2">
+
+                                            </div>
+                                            <div class="col-9">
+                                                <h3>Steve Jobs</h3>
+                                                <p>APPLE</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- popular post end -->
+
+                                <!--advertise start  -->
+                                <div class="right_div_post">
+                                    <div class="right_div_title py-4 pl-2">
+                                        <h2>Advertise</h2>
+                                    </div>
+                                    <div class="right_sub_div">
+                                        <div class="advertise_img bg-light
+                                            shadow">
+                                            <p>Ads Goes Here:</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--advertise end  -->
+
+                                <!-- tags start -->
+                                <div class="right_div_post">
+                                    <div class="right_div_title py-4 pl-2">
+                                        <h2>Tags</h2>
+                                    </div>
+                                    <div class="tags_main right_sub_div">
+                                        <a href="#" target="_nouman"
+                                            class="badge shadow
+                                            text-capitalize">html</a>
+                                        <a href="#" class="badge shadow
+                                            text-capitalize">css</a>
+                                        <a href="#" class="badge shadow
+                                            text-capitalize">js</a>
+                                        <a href="#" class="badge shadow
+                                            text-capitalize">html</a>
+                                        <a href="#" class="badge shadow
+                                            text-capitalize">wrdpress</a>
+                                        <a href="#" class="badge shadow
+                                            text-capitalize">php</a>
+                                        <a href="#" class="badge shadow
+                                            text-capitalize">c</a>
+                                        <a href="#" class="badge shadow
+                                            text-capitalize">c++</a>
+                                        <a href="#" class="badge shadow
+                                            text-capitalize">boostrap</a>
+                                        <a href="#" class="badge shadow
+                                            text-capitalize">css3</a>
+                                    </div>
+                                </div>
+                                <!-- tags end -->
+
+                                <!-- Inspiration start -->
+                                <div class="right_div_post">
+                                    <div class="right_div_title py-4 pl-2">
+                                        <h2>Inspiration</h2>
+                                    </div>
+                                    <div class="right_sub_div">
+                                        <div class="row gx-3">
+                                            <div class="col-6">
+                                                <figure>
+                                                    <img
+                                                        src="https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?cs=srgb&dl=pexels-lukas-574071.jpg&fm=jpg"
+                                                        class="img-fluid
+                                                        shadow">
+                                                </figure>
+                                            </div>
+                                            <div class="col-6">
+                                                <figure>
+                                                    <img
+                                                        src="https://images.pexels.com/photos/92904/pexels-photo-92904.jpeg?cs=srgb&dl=pexels-negative-space-92904.jpg&fm=jpg"
+                                                        class="img-fluid
+                                                        shadow">
+                                                </figure>
+                                            </div>
+                                            <div class="col-6">
+                                                <figure>
+                                                    <img
+                                                        src="https://images.pexels.com/photos/270360/pexels-photo-270360.jpeg?cs=srgb&dl=pexels-pixabay-270360.jpg&fm=jpg"
+                                                        class="img-fluid
+                                                        shadow">
+                                                </figure>
+                                            </div>
+                                            <div class="col-6">
+                                                <figure>
+                                                    <img
+                                                        src="https://images.pexels.com/photos/693859/pexels-photo-693859.jpeg?cs=srgb&dl=pexels-hitesh-choudhary-693859.jpg&fm=jpg"
+                                                        class="img-fluid
+                                                        shadow">
+                                                </figure>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Inspiration end -->
+
+                                <!-- News Letter start -->
+                                <div class="right_div_post">
+                                    <div class="right_div_title py-4 pl-2">
+                                        <h2>Follow Me:</h2>
+                                        <div class="right_sub_div d-flex justify-content-around">
+                                            <a href="#"><i class="fab fa-facebook-square fa-3x"></i></a>
+                                            <a href="#"><i class="fab fa-instagram fa-3x" ></i></a>
+                                            <a href="#"><i class="fab fa-github-square fa-3x"></i></a>
+                                            <a href="#"><i class="fab fa-twitter-square fa-3x"></i></a>
+                                            <a href="#"><i class="fab fa-youtube-square fa-3x"></i></a>
+                                            <a href="#"><i class="fab fa-linkedin fa-3x"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- News Letter end -->
+
+                                <!-- subsribe  newsletter start -->
+                                <div class="right_div_post">
+                                    <div class="right_div_title py-4 pl-2">
+                                        <h2>Subscribe:</h2>
+                                        <div class="right_sub_div">
+                                            <form>
+                                                <div class="mb-3">
+                                                    <label for="exampleFormControlInput1" class="form-label">Enter you Email below and get notified on the latest blog posts:</label>
+                                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@nouman.com">
+                                                </div>
+                                                <button type="submit" class="subs_btn d-block">Submit</button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- subsribe  newsletter end -->
+
+
+                            </div>
+                            <!-- rigth end -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- footer -->
+            <footer>
+                <p class="text-center py-4 bg-dark"><b>Design with love By @NOUMAN QAISER</b></p>
+            </footer>
+
+
+
+            <!-- Optional JavaScript -->
+            <!-- Popper.js first, then Bootstrap JS -->
+            <script
+                src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+                integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+                crossorigin="anonymous"></script>
+            <script
+                src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+                integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+                crossorigin="anonymous"></script>
+
+            <!-- comment button show on click or hide -->
+            <script>
+            // jb bi button pae krae click tou ake onclick event fire krnae lga hn
+            // jis ame uc function ka naam dia hai basically ic ko call kr rhae hain or jo argument pass kia hai wo id hai, jb hum button pae krae click tou ic ko call krae gae jis ame data pass kr rakha hai
+            // uc data ko access krna hai uc function ko define krna hai
+            // yahn rply1 data ko accept kr rhae hain
+            const reply = (response)=>{
+                // jb jb koi ic functyion ko call krae ga uc ka jo bi data ho ga mae ucae ic kae through ko accept kr skta hn
+                // pehlae uc div ko access krna hi
+                response = document.getElementById(response);
+                console.log(response);
+                if(response.className == "replies"){
+                    response.className = "noman_show";
+
+                }
+                else if(response.className == "noman_show"){
+                    response.className = "replies";
+                }
+            }
+
+            // like button js
+            // 1: step:::::key to get the id of like btn
+            const like = document.getElementById('like_btn');
+
+            const singleClick = () =>{
+                like.style.fontWeight = 'bold';
+                like.style.background = '#bbe1fa';
+                like.style.color = '#1b262c';
+                like.innerHTML = '/Liked';
+            }
+            const doubleClick = () =>{
+                like.style.fontWeight = 'normal';
+                like.style.background = '#3282b8';
+                like.style.color = '#fff';
+                like.innerHTML = 'Like';
+            }
+            //2: step::: to call the function on click and then double click
+            // variable declare kr dia hai, define kr dia hai
+            var clickCount = 0;
+            // ake anynomus function add kr rha hn
+                like.addEventListener('click', function(){
+                    clickCount++;
+                    if(clickCount === 1){
+                        // agr wo akr bar click hua hai
+                        singleClickTimer = setTimeout(function() {
+                            clickCount =0;
+                            // ic function ko call krn ga
+                            singleClick();
+                        }, 400);
+                    }
+                    else if(clickCount === 2){
+                        clearTimeout(singleClickTimer);
+                        clickCount = 0;
+                        doubleClick();
+                    }
+                }, false);
+            
+        </script>
+        </body>
+    </html>
